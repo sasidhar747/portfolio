@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamini Sasidhar Varma | Premium Portfolio</title>
+    
+    <!-- SEO Optimization -->
+    <meta name="description" content="Portfolio of Gamini Sasidhar Sai Varma - B.Tech. Information Technology student at Vel Tech University. Skilled in Java, React, Blockchain, and AI Integration.">
+    <meta name="keywords" content="Gamini Sasidhar Sai Varma, Gamini Sasidhar, Varma, Portfolio, B.Tech IT, Vel Tech, Java Developer, React Developer, Blockchain Cold Chain, AI Health Assistant, Skill Learning Marketplace, Full Stack Intern">
+    <meta name="author" content="Gamini Sasidhar Sai Varma">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gamini-digital-profile.lovable.app/">
+    <meta property="og:title" content="Gamini Sasidhar Varma | Interactive Developer Portfolio">
+    <meta property="og:description" content="Discover the interactive digital workspace of Gamini, featuring retro terminals, blockchain food safety systems, and AI-powered health platforms.">
+    <meta property="og:image" content="assets/profile.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Gamini Sasidhar Varma | Interactive Portfolio">
+    <meta property="twitter:description" content="Discover the interactive digital workspace of Gamini, featuring retro terminals, blockchain food safety systems, and AI-powered health platforms.">
+    <meta property="twitter:image" content="assets/profile.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <!-- Dotted Grid Canvas Overlay -->
+    <div class="grid-overlay"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <!-- Header & Navigation -->
+    <header class="navbar-wrapper">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">GAMINI.IT</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Terminal</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Lofi Ambient Player -->
+                <div class="lofi-player-badge">
+                    <button class="lofi-btn" id="lofiPlayBtn" aria-label="Toggle ambient lofi track">
+                        <i class="fa-solid fa-play"></i>
+                        <span class="lofi-tooltip">Play Synthwave Lofi</span>
+                    </button>
+                    <div class="visualizer-bars" id="audioVisualizer">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
+
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle light/dark theme">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero-section container">
+            <div class="hero-content">
+                <div class="hero-intro-badge">
+                    <span class="badge-dot animate-pulse"></span>
+                    <span class="badge-text">Open for Internships & Opportunities</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <div class="letters-row name-row" id="interactiveName">
+                        <span class="char-span" data-char="G">G</span>
+                        <span class="char-span" data-char="A">A</span>
+                        <span class="char-span" data-char="M">M</span>
+                        <span class="char-span" data-char="I">I</span>
+                        <span class="char-span" data-char="N">N</span>
+                        <span class="char-span" data-char="I">I</span>
+                    </div>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    IT Undergraduate <span class="sep">•</span> Java & Web Developer <span class="sep">•</span> Tech Enthusiast
+                </p>
+                
+                <p class="hero-tagline">
+                    Dedicated Information Technology undergraduate from <strong>Vel Tech University</strong> with strong skills in <strong>Java</strong> and web development. Passionate about engineering scalable, real-world applications using modern tech stacks.
+                </p>
+
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn btn-primary brutalist-btn">
+                        <span class="btn-content">Explore Projects <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                    <a href="#about" class="btn btn-secondary brutalist-btn">
+                        <span class="btn-content"><i class="fa-solid fa-terminal"></i> Launch Terminal</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Wave Marquee -->
+            <div class="marquee-wavy-container">
+                <svg viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="marquee-svg">
+                    <path id="wavyPath" d="M0,100 C300,20 600,180 900,100 C1200,20 1350,120 1500,100" fill="transparent" />
+                    <text class="wavy-text">
+                        <textPath href="#wavyPath" startOffset="0%">
+                            JAVA  •  REACT  •  NODE.JS  •  BLOCKCHAIN  •  EXPRESS  •  MYSQL  •  JWT AUTH  •  GENAI  •  BOOTSTRAP  •  C  •  JAVA  •  REACT  •  NODE.JS  •  BLOCKCHAIN  •  EXPRESS  •  MYSQL  •  JWT AUTH
+                        </textPath>
+                    </text>
+                </svg>
+            </div>
+        </section>
+
+        <!-- About & Retro Draggable Terminal Section -->
+        <section id="about" class="about-section container">
+            <div class="section-header">
+                <span class="section-tag">Interactive Environment</span>
+                <h2 class="section-title">Developer Console</h2>
+                <p class="section-desc">Drag the window around and type commands to explore my digital playground in retro style.</p>
+            </div>
+
+            <div class="console-grid">
+                <!-- Retro Terminal Card -->
+                <div class="terminal-card brutalist-card" id="draggableTerminal">
+                    <div class="terminal-header">
+                        <div class="terminal-controls">
+                            <span class="control-dot close-dot" id="termClose"></span>
+                            <span class="control-dot minimize-dot" id="termMin"></span>
+                            <span class="control-dot maximize-dot" id="termMax"></span>
+                        </div>
+                        <div class="terminal-title">terminal@gamini: ~</div>
+                        <div class="terminal-status"><i class="fa-solid fa-wifi"></i> Online</div>
+                    </div>
+                    
+                    <div class="terminal-body" id="terminalOutput">
+                        <div class="terminal-line system-msg">
+                            [System initialized. Welcome to Gamini's Command Shell v2.4.0]
+                        </div>
+                        <div class="terminal-line system-msg">
+                            Type <span class="term-highlight">help</span> to list available commands.
+                        </div>
+                        <br>
+                        <div class="terminal-history" id="terminalHistory">
+                            <div class="terminal-entry">
+                                <span class="prompt">gamini@portfolio:~$</span> <span class="input-text">about</span>
+                                <div class="output-block">
+Dedicated Information Technology undergraduate from Vel Tech University with strong skills in Java and web development. Passionate about building scalable applications and solving real-world problems.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="terminal-input-row">
+                            <span class="prompt">gamini@portfolio:~$</span>
+                            <input type="text" id="terminalInput" class="terminal-input" autofocus autocomplete="off" spellcheck="false">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modern Information Card -->
+                <div class="info-sidebar-card brutalist-card">
+                    <div class="card-inner">
+                        <div class="info-profile-header">
+                            <div class="profile-frame">
+                                <img src="assets/profile.png" alt="Gamini Sasidhar Sai Varma Profile Avatar" class="profile-pic">
+                            </div>
+                            <div class="profile-text">
+                                <h3>Gamini Sasidhar Varma</h3>
+                                <p>B.Tech IT Student</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-bio">
+                            <p>
+                                I am an ambitious, detail-oriented technologist. I combine robust backend development in **Java** and **SQL** with dynamic frontend libraries like **React** to engineer scalable systems.
+                            </p>
+                        </div>
+                        
+                        <div class="skills-mini-grid">
+                            <div class="skill-tag"><i class="fa-brands fa-java text-python"></i> Java</div>
+                            <div class="skill-tag"><i class="fa-solid fa-copyright text-js"></i> C</div>
+                            <div class="skill-tag"><i class="fa-brands fa-react text-js"></i> React</div>
+                            <div class="skill-tag"><i class="fa-brands fa-bootstrap text-html"></i> Bootstrap</div>
+                            <div class="skill-tag"><i class="fa-solid fa-code text-html"></i> HTML5/CSS3</div>
+                            <div class="skill-tag"><i class="fa-brands fa-node-js text-node"></i> Node.js</div>
+                            <div class="skill-tag"><i class="fa-solid fa-database text-db"></i> MySQL / SQL</div>
+                            <div class="skill-tag"><i class="fa-solid fa-cubes text-git"></i> Blockchain</div>
+                            <div class="skill-tag"><i class="fa-solid fa-robot text-ai"></i> AI Concepts</div>
+                        </div>
+
+                        <div class="meta-stats-row">
+                            <div class="meta-stat">
+                                <div class="stat-num">2027</div>
+                                <div class="stat-label">Grad Year</div>
+                            </div>
+                            <div class="meta-stat">
+                                <div class="stat-num">8.1</div>
+                                <div class="stat-label">CGPA IT</div>
+                            </div>
+                            <div class="meta-stat">
+                                <div class="stat-num">3</div>
+                                <div class="stat-label">Real Projects</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid Section -->
+        <section id="projects" class="projects-section container">
+            <div class="section-header">
+                <span class="section-tag">Academic & Real-World Craftsmanship</span>
+                <h2 class="section-title">Verified Portfolio</h2>
+                <p class="section-desc">A strict showcase of production-ready systems, cryptographic logs, and AI solutions engineered with precision.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Cold Chain Monitoring -->
+                <div class="project-card brutalist-card card-yellow" data-project="coldchain">
+                    <div class="project-card-header">
+                        <div class="project-icon"><i class="fa-solid fa-link"></i></div>
+                        <div class="project-number">01</div>
+                    </div>
+                    <h3 class="project-card-title">Blockchain Cold Chain</h3>
+                    <p class="project-card-snippet">A decentralized blockchain monitoring system ensuring food safety and traceability through immutable climate logs.</p>
+                    <div class="project-tech-tags">
+                        <span>Blockchain</span>
+                        <span>Food Safety</span>
+                        <span>IoT Monitoring</span>
+                    </div>
+                    <button class="project-view-btn open-modal-btn" data-target="coldchainModal">
+                        Read Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </div>
+
+                <!-- Project 2: AI Health Assistant -->
+                <div class="project-card brutalist-card card-purple" data-project="healthassistant">
+                    <div class="project-card-header">
+                        <div class="project-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                        <div class="project-number">02</div>
+                    </div>
+                    <h3 class="project-card-title">AI Health Assistant</h3>
+                    <p class="project-card-snippet">An AI-based personalized assistant supporting specially-abled individuals with adaptivity and proactive monitoring.</p>
+                    <div class="project-tech-tags">
+                        <span>Adaptive AI</span>
+                        <span>Multimodal UX</span>
+                        <span>Accessibility</span>
+                    </div>
+                    <button class="project-view-btn open-modal-btn" data-target="healthModal">
+                        Read Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </div>
+
+                <!-- Project 3: Skill Learning Marketplace -->
+                <div class="project-card brutalist-card card-green" data-project="marketplace">
+                    <div class="project-card-header">
+                        <div class="project-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div class="project-number">03</div>
+                    </div>
+                    <h3 class="project-card-title">Learning Marketplace</h3>
+                    <p class="project-card-snippet">A robust full-stack course platform built with Node.js, Express, MySQL, and JWT secure authorization control.</p>
+                    <div class="project-tech-tags">
+                        <span>Node.js & Express</span>
+                        <span>MySQL</span>
+                        <span>JWT Secure</span>
+                    </div>
+                    <button class="project-view-btn open-modal-btn" data-target="marketplaceModal">
+                        Read Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </div>
+
+                <!-- Project 4: Smart LPG Regulator -->
+                <div class="project-card brutalist-card card-pink" data-project="lpgregulator">
+                    <div class="project-card-header">
+                        <div class="project-icon"><i class="fa-solid fa-gauge"></i></div>
+                        <div class="project-number">04</div>
+                    </div>
+                    <h3 class="project-card-title">Smart LPG Regulator</h3>
+                    <p class="project-card-snippet">An intelligent IoT-enabled domestic LPG regulator with a dual-sensor architecture and automated solenoid fail-safe valve.</p>
+                    <div class="project-tech-tags">
+                        <span>ESP32</span>
+                        <span>Blynk IoT</span>
+                        <span>MQ-2 Sensor</span>
+                        <span>Solenoid Valve</span>
+                    </div>
+                    <button class="project-view-btn open-modal-btn" data-target="lpgregulatorModal">
+                        Read Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bento Grid & Experience Section -->
+        <section id="experience" class="experience-section container">
+            <div class="section-header">
+                <span class="section-tag">Timeline & Milestones</span>
+                <h2 class="section-title">Education & Experience</h2>
+                <p class="section-desc">My professional progression, academic milestones, and certifications mapped in a premium grid.</p>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Bento Card 1: Experience -->
+                <div class="bento-card brutalist-card span-col-2 experience-card">
+                    <div class="bento-card-header">
+                        <span class="bento-badge"><i class="fa-solid fa-briefcase"></i> Experience</span>
+                        <span class="bento-time">2026</span>
+                    </div>
+                    <h3>AI Integrated Full Stack Intern</h3>
+                    <p class="org-name">Internship Studio</p>
+                    <p class="bento-desc">
+                        Successfully engineered full-stack web applications integrated with intelligent cognitive algorithms, developing capabilities across multiple architectural layers.
+                    </p>
+                    <div class="experience-details">
+                        <div class="exp-bullet"><span class="exp-dot"></span> Built full-stack applications with basic AI integrations.</div>
+                        <div class="exp-bullet"><span class="exp-dot"></span> Gained robust practical experience in frontend, backend servers, and database architectures.</div>
+                    </div>
+                </div>
+
+                <!-- Bento Card 2: Education B.Tech -->
+                <div class="bento-card brutalist-card education-card">
+                    <div class="bento-card-header">
+                        <span class="bento-badge"><i class="fa-solid fa-graduation-cap"></i> B.Tech Education</span>
+                    </div>
+                    <h3>B.Tech. IT</h3>
+                    <p class="org-name">Vel Tech University</p>
+                    <p class="bento-desc">
+                        Pursuing a specialized IT curriculum focused on modern software design, algorithms, DBMS, web architectures, and system scalability.
+                    </p>
+                    <div class="edu-footer">
+                        <span>CGPA: 8.1</span>
+                        <span class="edu-grad">Grad: 2027</span>
+                    </div>
+                </div>
+
+                <!-- Bento Card 3: Academic Foundations (Schooling) -->
+                <div class="bento-card brutalist-card core-principles-card">
+                    <div class="bento-card-header">
+                        <span class="bento-badge"><i class="fa-solid fa-school"></i> Schooling</span>
+                    </div>
+                    <h3>Academic Foundations</h3>
+                    <ul class="principles-list">
+                        <li><strong>12th Grade:</strong> K.V.S.R.T Junior College (60% | Grad 2023)</li>
+                        <li><strong>10th Grade:</strong> Siddhartha English Medium High School (95% | Grad 2020)</li>
+                    </ul>
+                </div>
+
+                <!-- Bento Card 4: Certifications & Values -->
+                <div class="bento-card brutalist-card span-col-2 map-card">
+                    <div class="bento-card-header">
+                        <span class="bento-badge"><i class="fa-solid fa-award"></i> Certifications</span>
+                        <span class="interactive-dot-pulse">Verified Achievements</span>
+                    </div>
+                    
+                    <div class="experience-details" style="margin-top: 1rem;">
+                        <div class="exp-bullet" style="font-size: 0.95rem; margin-bottom: 0.8rem;">
+                            <span class="exp-dot" style="background-color: var(--color-accent);"></span> 
+                            <strong>Electronic Arts Software Engineering Virtual Experience</strong> – Forage (Certified)
+                        </div>
+                        <div class="exp-bullet" style="font-size: 0.95rem; margin-bottom: 0.8rem;">
+                            <span class="exp-dot" style="background-color: var(--color-accent);"></span> 
+                            <strong>GenAI Powered Data Analytics Virtual Experience</strong> – Forage (Certified)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visa Developer Card Contact Section -->
+        <section id="contact" class="contact-section container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Developer Identity</h2>
+                <p class="section-desc">Hover or tap on the developer visa card to flip it and trigger a secure connection line.</p>
+            </div>
+
+            <div class="card-3d-wrapper">
+                <!-- Flippable Credit Card -->
+                <div class="credit-card-inner" id="visaCard">
+                    <!-- Front Side -->
+                    <div class="credit-card-front brutalist-card">
+                        <div class="cc-header">
+                            <span class="cc-brand">DEVELOPER IDENTITY</span>
+                            <div class="cc-chip"></div>
+                        </div>
+                        
+                        <div class="cc-number">
+                            <span>sasidharsaivarmagamini</span><span class="email-at">@</span><span>gmail.com</span>
+                        </div>
+                        
+                        <div class="cc-meta-row">
+                            <div class="cc-meta-block">
+                                <span class="cc-label">CARD HOLDER</span>
+                                <span class="cc-value">GAMINI S S V VARMA</span>
+                            </div>
+                            <div class="cc-meta-block">
+                                <span class="cc-label">LOCATION</span>
+                                <span class="cc-value">VELLATURU, IN</span>
+                            </div>
+                            <div class="cc-network-logo">
+                                <span class="network-bracket">[</span>
+                                <span class="network-name">JAVA</span>
+                                <span class="network-bracket">]</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Back Side (Quick Contact Form) -->
+                    <div class="credit-card-back brutalist-card">
+                        <div class="cc-strip"></div>
+                        <div class="cc-back-form-header">
+                            <span class="sig-title">CONTACT HOTLINE</span>
+                            <div class="cc-cvv">TEL: +91 7382220280</div>
+                        </div>
+                        
+                        <form class="cc-back-form" id="contactForm" onsubmit="event.preventDefault(); alert('Message simulation successful. Thank you!');">
+                            <div class="input-group-row">
+                                <input type="text" placeholder="Your Name" class="cc-input" required id="formName">
+                                <input type="email" placeholder="Your Email" class="cc-input" required id="formEmail">
+                            </div>
+                            <textarea placeholder="Write a short message... (e.g. Let's collaborate!)" class="cc-textarea" required id="formMessage"></textarea>
+                            
+                            <button type="submit" class="cc-submit-btn">
+                                Send Signal <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="direct-contact-links">
+                <a href="mailto:sasidharsaivarmagamini@gmail.com" class="brutalist-btn mail-link-btn">
+                    <i class="fa-solid fa-envelope"></i> Open Mail Client
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Details Modals -->
+    
+    <!-- Modal 1: Blockchain Cold Chain Details -->
+    <div class="modal-overlay" id="coldchainModal">
+        <div class="modal-card brutalist-card">
+            <div class="modal-header header-yellow">
+                <h3><i class="fa-solid fa-link"></i> Blockchain Cold Chain Monitoring</h3>
+                <button class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-banner">
+                    <span class="banner-badge badge-yellow">Blockchain & IoT</span>
+                </div>
+                
+                <h4>Project Summary</h4>
+                <p>
+                    Developed a specialized **blockchain-based system** engineered to ensure complete food safety, provenance tracking, and cold supply chain traceability.
+                </p>
+
+                <h4>Technical Specifications</h4>
+                <table class="modal-table">
+                    <tr>
+                        <th>Architecture</th>
+                        <td>Decentralized blockchain ledger structure with IoT sensor registers.</td>
+                    </tr>
+                    <tr>
+                        <th>Features</th>
+                        <td>Immutable data storage, real-time logging, decentralized safety registers.</td>
+                    </tr>
+                    <tr>
+                        <th>Target Domain</th>
+                        <td>Food Safety & Supply Chain Traceability.</td>
+                    </tr>
+                </table>
+
+                <h4>Core Features</h4>
+                <ul class="modal-bullets">
+                    <li><i class="fa-solid fa-circle-check text-yellow"></i> <strong>Real-Time Climate Monitoring:</strong> Continually monitors ambient temperature and relative humidity levels across the logistics path.</li>
+                    <li><i class="fa-solid fa-circle-check text-yellow"></i> <strong>Cryptographic Storage Registers:</strong> Logs sensor telemetry into secure, unalterable decentralized storage nodes preventing record tampering.</li>
+                    <li><i class="fa-solid fa-circle-check text-yellow"></i> <strong>Immutable Audit Trails:</strong> Creates an transparent history trail of ambient environmental conditions.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary modal-close-action">Close Window</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: AI Health Assistant Details -->
+    <div class="modal-overlay" id="healthModal">
+        <div class="modal-card brutalist-card">
+            <div class="modal-header header-purple">
+                <h3><i class="fa-solid fa-heart-pulse"></i> AI-Powered Personalized Health Assistant</h3>
+                <button class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-banner">
+                    <span class="banner-badge badge-purple">Adaptive AI</span>
+                </div>
+                
+                <h4>Project Summary</h4>
+                <p>
+                    Engineered an **intelligent, AI-based personal assistant** customized specifically to support specially-abled individuals with healthcare accessibility.
+                </p>
+
+                <h4>Technical Specifications</h4>
+                <table class="modal-table">
+                    <tr>
+                        <th>Core Technologies</th>
+                        <td>Adaptive AI agents, multimodal accessibility layers, telemetry monitors.</td>
+                    </tr>
+                    <tr>
+                        <th>Focus Area</th>
+                        <td>Healthcare Accessibility, Inclusivity, Multimodal UI.</td>
+                    </tr>
+                    <tr>
+                        <th>Design Intent</th>
+                        <td>Proactive support mechanisms designed specifically for specially-abled users.</td>
+                    </tr>
+                </table>
+
+                <h4>Core Features</h4>
+                <ul class="modal-bullets">
+                    <li><i class="fa-solid fa-circle-check text-purple"></i> <strong>Multimodal Accessibility Interface:</strong> Enables seamless voice commands, tactile actions, and high-visibility prompts.</li>
+                    <li><i class="fa-solid fa-circle-check text-purple"></i> <strong>Proactive Vitals Tracking:</strong> Logs vital statistics and analyzes health metrics to trigger alerts before emergencies arise.</li>
+                    <li><i class="fa-solid fa-circle-check text-purple"></i> <strong>Adaptive AI Agent:</strong> Personalizes feedback, instructions, and navigation schedules based on user preferences.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary modal-close-action">Close Window</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: Skill Learning Marketplace Details -->
+    <div class="modal-overlay" id="marketplaceModal">
+        <div class="modal-card brutalist-card">
+            <div class="modal-header header-green">
+                <h3><i class="fa-solid fa-cart-shopping"></i> Skill Learning Marketplace</h3>
+                <button class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-banner">
+                    <span class="banner-badge badge-green">Full-Stack System</span>
+                </div>
+                
+                <h4>Project Summary</h4>
+                <p>
+                    Designed and built a **comprehensive, full-stack course platform** facilitating student enrollments, payment processing pipelines, course discovery, and role-based user management.
+                </p>
+
+                <h4>Technical Specifications</h4>
+                <table class="modal-table">
+                    <tr>
+                        <th>Backend Engine</th>
+                        <td>Node.js & Express REST APIs.</td>
+                    </tr>
+                    <tr>
+                        <th>Database Layer</th>
+                        <td>Relational data modeling in MySQL.</td>
+                    </tr>
+                    <tr>
+                        <th>Security Matrix</th>
+                        <td>JSON Web Tokens (JWT) for secure authentication and role-based access.</td>
+                    </tr>
+                </table>
+
+                <h4>Core Features</h4>
+                <ul class="modal-bullets">
+                    <li><i class="fa-solid fa-circle-check text-green"></i> <strong>Role-Based Account Dashboards:</strong> Dedicated controls and view panels tailored for Students and Instructors.</li>
+                    <li><i class="fa-solid fa-circle-check text-green"></i> <strong>Course Search & Discovery:</strong> Quick fuzzy filtering, progress mapping, and structured course catalog navigation.</li>
+                    <li><i class="fa-solid fa-circle-check text-green"></i> <strong>Enrollment & Payments:</strong> Fully modular transactional modules supporting user purchase logs and enrollment databases.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary modal-close-action">Close Window</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4: Smart LPG Regulator Details -->
+    <div class="modal-overlay" id="lpgregulatorModal">
+        <div class="modal-card brutalist-card">
+            <div class="modal-header header-pink" style="background-color: var(--color-pink); color: #000000;">
+                <h3><i class="fa-solid fa-gauge"></i> Smart LPG Regulator</h3>
+                <button class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-banner">
+                    <span class="banner-badge badge-pink" style="background-color: var(--color-pink); color: #000000;">IoT & Safety</span>
+                </div>
+                
+                <h4>Project Summary</h4>
+                <p>
+                    Designed, developed, and implemented an intelligent, IoT-enabled **Smart LPG Regulator** to actively mitigate domestic leakages and track fuel consumption in real-time.
+                </p>
+
+                <h4>Academic Credentials</h4>
+                <p class="project-quote">
+                    <strong>Minor Project-II (3.2 Semester)</strong><br>
+                    Submitted in partial fulfillment of the award of B.Tech. in Information Technology at Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology, May 2026.<br>
+                    <strong>Team:</strong> Raju Praveen Kumar Reddy (23UEIT0045), G Sasidhar Sai Varma (23UEIT0013), G Dhanush (23UEIT0012).<br>
+                    <strong>Guidance:</strong> Dr. Lijetha C Jaffrin, Assistant Professor (SG).
+                </p>
+
+                <h4>Technical Specifications</h4>
+                <table class="modal-table">
+                    <tr>
+                        <th>Microcontroller</th>
+                        <td>ESP32 DevKit V1 (Wi-Fi-enabled dual-core processing).</td>
+                    </tr>
+                    <tr>
+                        <th>Sensors Interfaced</th>
+                        <td>MQ-2 combustible gas sensor & precision load cell with HX711 24-bit ADC.</td>
+                    </tr>
+                    <tr>
+                        <th>Actuation Logic</th>
+                        <td>ESP32 commands relay to cut off a heavy-duty 12V Solenoid Valve in &lt;1 second.</td>
+                    </tr>
+                    <tr>
+                        <th>Telemetry & Override</th>
+                        <td>Blynk IoT Cloud Platform integrating real-time telemetry and push alerts.</td>
+                    </tr>
+                </table>
+
+                <h4>Core Features</h4>
+                <ul class="modal-bullets">
+                    <li><i class="fa-solid fa-circle-check text-pink" style="color: var(--color-pink);"></i> <strong>Autonomous Fail-Safe:</strong> Instantly de-energizes the solenoid valve to sever gas flow when ambient leak levels exceed the 3500 ADC threshold.</li>
+                    <li><i class="fa-solid fa-circle-check text-pink" style="color: var(--color-pink);"></i> <strong>Real-Time Cloud Telemetry:</strong> Feeds fuel levels, remaining percentages, and safety indicators directly to a Blynk dashboard.</li>
+                    <li><i class="fa-solid fa-circle-check text-pink" style="color: var(--color-pink);"></i> <strong>Manual Valve Actuation:</strong> Enables remote closing/opening of the gas valve through user smartphone control.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary modal-close-action">Close Window</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden audio element for lofi music stream -->
+    <audio id="lofiAudio" loop src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+
+    <!-- Footer -->
+    <footer class="footer container">
+        <p>&copy; 2026 Gamini Sasidhar Sai Varma. Engineered with passion and Vanilla Tech.</p>
+        <div class="footer-links">
+            <a href="mailto:sasidharsaivarmagamini@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/sasidhar-sai-varma-gamini" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/sasidhar747" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- Script Entry -->
+    <script src="app.js"></script>
+</body>
+</html>
